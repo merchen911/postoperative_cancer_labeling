@@ -1,0 +1,24 @@
+# Python 3.10+ recommended. For exact paper reproduction, pin the versions your
+# environment used (fill in from `pip freeze` on the training machine).
+
+# --- Core data / numerics / plotting ---
+pandas>=2.1          # notebooks use DataFrame.map (pandas >= 2.1)
+numpy
+scipy                # Welch T^2 / MMD statistics
+scikit-learn         # StratifiedKFold, metrics, DBSCAN
+matplotlib
+seaborn
+tqdm
+openpyxl             # .xlsx read
+xlsxwriter           # styled .xlsx write
+
+# --- Modeling ---
+torch                # CUDA build recommended (training/inference/captum use GPU)
+transformers         # recent enough for from_pretrained(dtype=...)
+pytorch-lightning
+umap-learn           # embedding-space analysis + weak-negative mining
+captum               # Integrated Gradients attributions
+
+# --- Notebooks ---
+jupyter
+ipython

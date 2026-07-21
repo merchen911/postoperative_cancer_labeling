@@ -1,0 +1,39 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.DS_Store
+
+# ---------------------------------------------------------------------------
+# External / PHI / large artifacts — supplied out of band, NEVER committed.
+# data/, model/ and logs/ are fully ignored — no tracked placeholders. They hold
+# PHI corpora, large local HuggingFace encoders, and generated checkpoints/figures,
+# all supplied/created out of band. Point config.py's roots wherever you restore them.
+# ---------------------------------------------------------------------------
+data/
+model/
+logs/
+
+# Fine-tuned checkpoints / Lightning run dirs
+*.ckpt
+lightning_logs/
+
+# ---------------------------------------------------------------------------
+# Hard guard against accidental PHI commit: no tabular data anywhere.
+# (JSON config such as cancer_dict.json / abbrevations.json is intentionally kept.)
+# ---------------------------------------------------------------------------
+*.csv
+*.xlsx
+*.xls
+
+# ---------------------------------------------------------------------------
+# Notebook-generated outputs (figures / attribution HTML)
+# ---------------------------------------------------------------------------
+notebooks/**/figure/
+notebooks/**/figures/
+*.html

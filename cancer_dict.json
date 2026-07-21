@@ -1,0 +1,46 @@
+{
+    "1": {
+        "name_en": "Hepatobiliary & Pancreas",
+        "name_ko": "간담췌"
+    },
+    "2": {
+        "name_en": "Gastrointestinal",
+        "name_ko": "위장관"
+    },
+    "3": {
+        "name_en": "Thoracic",
+        "name_ko": "폐·흉부"
+    },
+    "4": {
+        "name_en": "Breast",
+        "name_ko": "유방"
+    },
+    "5": {
+        "name_en": "Gynecologic",
+        "name_ko": "부인과"
+    },
+    "6": {
+        "name_en": "Genitourinary",
+        "name_ko": "비뇨기"
+    },
+    "7": {
+        "name_en": "Neurologic",
+        "name_ko": "뇌·중추신경"
+    },
+    "8": {
+        "name_en": "Hematologic",
+        "name_ko": "혈액암"
+    },
+    "9": {
+        "name_en": "Head & Neck",
+        "name_ko": "두경부"
+    },
+    "10": {
+        "name_en": "Endocrine",
+        "name_ko": "내분비"
+    },
+    "11": {
+        "name_en": "Others",
+        "name_ko": "기타"
+    }
+}
