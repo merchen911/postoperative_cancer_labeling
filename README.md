@@ -1,4 +1,4 @@
-# Deep learning for unsupervised recurrence & metastasis labeling in Korean postoverpative pathology reports
+# Deep learning for semi-supervised recurrence & metastasis labeling in Korean postoverpative pathology reports
 
 Code accompanying the manuscript **"Automated Extraction of Postoperative Cancer Recurrence and Metastasis from CT Reports: Semi-Supervised Deep Learning Study"** (submitted). This repository lets reviewers and readers reproduce the modeling pipeline and the reported experiments.
 
